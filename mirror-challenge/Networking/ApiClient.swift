@@ -43,7 +43,8 @@ final class ApiClient: ApiClientProtocol {
     }
     
     func updateUser(id: Int, height: Int, age: Int, likesJavascript: Bool, _ completion: @escaping (Result<User>) -> ()) {
-        Api.authRequest(method: .patch, path: "/users/\(id)").responseObject(completionHandler: { (response:DataResponse<User>) in
+        let params = ["age": age, "height": height, "likesJavascript": likesJavascript] as [String : Any]
+        Api.authRequest(method: .patch, path: "/users/\(id)", params: params).responseObject(completionHandler: { (response:DataResponse<User>) in
             debugPrint("response: \(response)")
             completion(response.result)
         })

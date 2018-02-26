@@ -35,7 +35,7 @@ final class RealmPersister: PersisterProtocol {
                                                 }
             })
             
-            let dbname = "db-2"
+            let dbname = "dbx"
             config.fileURL = config.fileURL!.deletingLastPathComponent().appendingPathComponent("\(dbname).realm")
             Realm.Configuration.defaultConfiguration = config
         }

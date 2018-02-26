@@ -31,6 +31,7 @@
 		F488EDC22043935900B4FA1C /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488EDC12043935900B4FA1C /* UserDefaults+Extension.swift */; };
 		F488EDC42043A5F300B4FA1C /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488EDC32043A5F300B4FA1C /* Utility.swift */; };
 		F488EDC62043A61400B4FA1C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488EDC52043A61400B4FA1C /* Constants.swift */; };
+		F488EDC82043CBF100B4FA1C /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F488EDC72043CBF100B4FA1C /* SliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		F488EDC12043935900B4FA1C /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
 		F488EDC32043A5F300B4FA1C /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		F488EDC52043A61400B4FA1C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F488EDC72043CBF100B4FA1C /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SliderView.swift; path = "mirror-challenge/UI/Shared/SliderView.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +236,7 @@
 				F488EDC02043934500B4FA1C /* Utility */,
 				F488EDB720433E2E00B4FA1C /* FloatingTextField.swift */,
 				F488EDB820433E2E00B4FA1C /* LoadingButton.swift */,
+				F488EDC72043CBF100B4FA1C /* SliderView.swift */,
 			);
 			name = Shared;
 			path = "New Group";
@@ -497,6 +500,7 @@
 				F488EDC22043935900B4FA1C /* UserDefaults+Extension.swift in Sources */,
 				F488EDAF2043393400B4FA1C /* EditAccountViewController.swift in Sources */,
 				F488EDA32043342000B4FA1C /* AuthViewController.swift in Sources */,
+				F488EDC82043CBF100B4FA1C /* SliderView.swift in Sources */,
 				F488ED742043321800B4FA1C /* AppDelegate.swift in Sources */,
 				F488ED982043335400B4FA1C /* AppRouter.swift in Sources */,
 				F488EDBC20435A4500B4FA1C /* AuthToken.swift in Sources */,
